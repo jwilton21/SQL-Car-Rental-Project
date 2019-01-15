@@ -1,0 +1,65 @@
+                                                                                                                                              
+
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline                                                                                                                                                                      		
+ReservationID & CustomerID & DateCollected & ScheduledReturnDate & ActualReturnDate & FuelStatus & VehicleID & BranchID \\ \hline		
+1001        & 1   & 21.05.17      & 02.06.17            & 02.06.17         & Full       & 1490  & 25798   \\ \hline
+1002         & 2    & 18.10.17      & 20.10.17            & 21.10.17         & Full       & 1491  & 27415   \\ \hline
+\end{tabular}
+\end{table}
+
+//Reservation table corrected
+
+
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+VehicleTypeID          & VehicleTypeName           \\ \hline                                                                                                           
+18728        & Small Car             \\ \hline
+18729		& Large Saloon \\ \hline
+\end{tabular}
+\end{table}                                                                                         
+
+
+//Vehicle Type Table
+
+
+                                                                                     
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+VehicleTypeID & VehicleTypeName          			  \\\ \hline                                                                                                           
+18728       	& Small Car          				  				 \\ \hline
+18729 				& Large Saloon & Business Car               					\\ \hline
+\end{tabular}
+\end{table}          
+
+//Vehicle Table
+
+
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+BranchID  	 & BranchAddres 						          \\ \hline                                                                                                           
+25798        	 & 18278  &  Ford & Fiesta & Red           				   \\ \hline
+25799	& 18279 & Volkswagen & Coupe & Black                                         \\ \hline
+\end{tabular}
+\end{table}    
+
+//Branch Table
