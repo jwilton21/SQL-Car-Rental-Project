@@ -1,0 +1,68 @@
+ /** Create table Customer:
+CustomerID
+Name
+Address
+ContactNumber **/
+
+DROP TABLE Customer;
+CREATE TABLE Customer (CustomerID INT PRIMARY KEY NOT NULL,
+  CustomerName varchar(500) NOT NULL,
+  Address varchar (500) NOT NULL,
+  ContactNumber varchar(200)                   
+  );    
+  
+  /** Create table VehicleType:
+VehicleTypeID
+VehicleTypeName **/
+
+DROP TABLE VehicleType;
+CREATE TABLE VehicleType (VehicleTypeID INT PRIMARY KEY NOT NULL,
+VehicleTypeName varchar(200));
+
+  /** Create table Vehicle:
+VehicleID
+VehicleType
+VehicleMake
+VehicleModel
+VehicleColour **/
+  
+  DROP TABLE Vehicle;
+  CREATE TABLE Vehicle (VehicleID INT PRIMARY KEY NOT NULL,
+  VehicleTypeID INT,
+  VehicleMake varchar(200) NOT NULL,
+  VehicleModel varchar(200) NOT NULL,
+  VehicleColour varchar(200) NOT NULL,
+  FOREIGN KEY (VehicleTypeID) REFERENCES VehicleType(VehicleTypeID));
+  
+
+
+  /** Create table Branch:
+BranchID
+BranchAddress **/
+
+DROP TABLE Branch;
+CREATE TABLE Branch (BranchID INT PRIMARY KEY NOT NULL,
+BranchAddress varchar(200) NOT NULL);
+
+/** Create table Reservation:
+CustomerID
+DateCollected
+ScheduledReturnDate
+ActualReturnDate
+FuelStatus
+VehicleID
+BranchID **/
+
+DROP TABLE Reservation;
+CREATE TABLE Reservation (ReservationID INT PRIMARY KEY NOT NULL,
+  CustomerID INT NOT NULL,
+  DateCollected varchar(200) NOT NULL,
+  ScheduledReturnDate varchar(200) NOT NULL,
+  ActualReturnDate varchar(200) NOT NULL,
+  FuelStatus varchar(200) NOT NULL,
+  VehicleID INT NOT NULL,
+  BranchID INT NOT NULL, 
+  FOREIGN KEY (CUSTOMERID)REFERENCES CUSTOMER(CUSTOMERID),
+  FOREIGN KEY (VEHICLEID) REFERENCES VEHICLE (VEHICLEID));
+  FOREIGN KEY (BRANCHID) REFERENCES BRANCH (BRANCHID));
+  
