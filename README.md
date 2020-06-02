@@ -1,7 +1,6 @@
 # SQL-Car-Rental-Project
-ABA Car Rentals
 
-University SQL project.
+This is the MSc Software Engineering SQL project submission.
 
 Business Synopsis
 ABA Rentals was founded in August 2016 and was started as one small office. ABA Rentals was established by father and son, Sam and Robert Jones. ABA Rentals is a vehicle hire business. ABA Rentals’ main office is situated on 129 Bakerstone Road, which is an affluent area of Comber, County Down in Northern Ireland. ABA Rentals has various offices across County Down and County Antrim. In total there are 10 branches. The main office of ABA Rentals has a team of database developers at its axel. That office is thriving, and all accounts related to that Office are managed through a Head Office database.
