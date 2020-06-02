@@ -21,11 +21,12 @@ Business Rules;
 10.	Vehicle type has 1 or more vehicles
  
 
-2) Business Reporting Requirements:
-1)	Must generate a report that specifies the number of customers that rented vehicles from a date range: 28.10.17 – 29.10.17.
-2)	Must generate a report that specifies the first name, surname, address and contact number of all customers.
-3)	Must generate a report to show all reservations placed by a customer: ‘Miss Caroline Parkinson’.
-4)	Must generate a report to show who rented the Audi TT.
-5)	Must generate a report which specifies the number of customers who rented a vehicle in November 2017.
-6)	Must generate a report which specifies cars’ fuel status at any given time the script is run. 
+Business Reporting Requirements;
+
+11. Must generate a report that specifies the number of customers that rented vehicles from a date range: 28.10.17 – 29.10.17.
+12. Must generate a report that specifies the first name, surname, address and contact number of all customers.
+13.	Must generate a report to show all reservations placed by a customer: ‘Miss Caroline Parkinson’.
+14.	Must generate a report to show who rented the Audi TT.
+15.	Must generate a report which specifies the number of customers who rented a vehicle in November 2017.
+16.	Must generate a report which specifies cars’ fuel status at any given time the script is run. 
 
